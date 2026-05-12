@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        # 认证服务
+        - id: auth-service
+          uri: lb://auth-service
+          predicates:
+            - Path=/auth/**
+
+        # 项目服务
+        - id: project-service
+          uri: lb://project-service
+          predicates:
+            - Path=/project/**
+
+      # 自动根据服务名路由（加这个最保险）
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true

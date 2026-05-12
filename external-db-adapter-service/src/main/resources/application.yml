@@ -1,0 +1,35 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: external-db-adapter-service
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        import-check:
+          enabled: false
+
+  # 多数据源
+  datasource:
+    primary:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://43.136.23.105:5432/yjyprod?currentSchema=bureau_project_info&sslmode=disable
+      username: vastbase
+      password: 4c4c4c4C
+      type: com.alibaba.druid.pool.DruidDataSource
+
+    third:
+      url: xxx
+      username: xx
+      password: xx
+      driver-class-name: org.postgresql.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml

@@ -1,0 +1,45 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: project-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        import-check:
+          enabled: false
+  gateway:
+    routes:
+      # 认证服务路由
+      - id: project-service
+        uri: lb://project-service
+        predicates:
+          - Path=/project/**
+  spring:
+    datasource:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://43.136.23.105:5432/yjyprod?currentSchema=bureau_project_info&sslmode=disable
+      username: vastbase
+      password: 4c4c4c4C
+      type: com.alibaba.druid.pool.DruidDataSource
+  druid:
+    initial-size: 5
+    min-idle: 5
+    max-active: 20
+    stat-view-servlet:
+      enabled: true
+      login-username: admin
+      login-password: 123456
+
+mybatis-plus:
+  configuration:
+    dialect: postgres
+    map-underscore-to-camel-case: true
+
+# 禁用 ribbon（Spring Cloud 2023+不使用ribbon）
+ribbon:
+  eureka:
+    enabled: false

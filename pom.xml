@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zjsh</groupId>
+    <artifactId>project-manage</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>project-manage</name>
+    <description>工程项目管理微服务系统</description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.5</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+
+        <spring-cloud.version>2023.0.1</spring-cloud.version>
+        <spring-cloud-alibaba.version>2023.0.1.2</spring-cloud-alibaba.version>
+        <mybatis-plus.version>3.5.6</mybatis-plus.version>
+        <hutool.version>5.8.25</hutool.version>
+        <durid.version>1.2.2</durid.version>
+    </properties>
+
+
+        <dependencyManagement>
+            <dependencies>
+                <!-- Spring Cloud 版本 -->
+                <dependency>
+                    <groupId>org.springframework.cloud</groupId>
+                    <artifactId>spring-cloud-dependencies</artifactId>
+                    <version>${spring-cloud.version}</version>
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
+
+                <!-- Spring Cloud Alibaba 版本（Nacos） -->
+                <dependency>
+                    <groupId>com.alibaba.cloud</groupId>
+                    <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                    <version>${spring-cloud-alibaba.version}</version>
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
+
+                <!-- MyBatis-Plus 版本管理（修复 unknown） -->
+                <dependency>
+                    <groupId>com.baomidou</groupId>
+                    <artifactId>mybatis-plus-boot-starter</artifactId>
+                    <version>${mybatis-plus.version}</version>
+                </dependency>
+
+
+                <!-- Hutool 版本管理（修复 unknown） -->
+                <dependency>
+                    <groupId>cn.hutool</groupId>
+                    <artifactId>hutool-all</artifactId>
+                    <version>${hutool.version}</version>
+                </dependency>
+
+                <!-- Druid SpringBoot3 专属启动器 -->
+                <dependency>
+                    <groupId>com.alibaba</groupId>
+                    <artifactId>druid-spring-boot-3-starter</artifactId>
+                    <version>${durid.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>org.springframework.cloud</groupId>
+                    <artifactId>spring-cloud-starter-gateway</artifactId>
+                </dependency>
+            </dependencies>
+        </dependencyManagement>
+
+
+    <modules>
+        <module>common</module>
+        <module>auth-service</module>
+        <module>project-service</module>
+        <module>workflow-service</module>
+        <module>orchestration-service</module>
+        <module>auth-sdk</module>
+        <module>gateway-service</module>
+        <module>external-db-adapter-service</module>
+        <module>external-db-adapter-sdk</module>
+        <module>project-sdk</module>
+        <module>workflow-sdk</module>
+    </modules>
+
+</project>

@@ -1,0 +1,18 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: orchestration-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+  spring:
+    datasource:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://43.136.23.105:5432/yjyprod?currentSchema=bureau_project_info&sslmode=disable
+      username: vastbase
+      password: 4c4c4c4C
+      type: com.alibaba.druid.pool.DruidDataSource

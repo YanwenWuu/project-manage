@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth-service" />
+        <module name="common" />
+        <module name="gateway-service" />
+        <module name="external-db-adapter-service" />
+        <module name="external-db-adapter-sdk" />
+        <module name="orchestration-service" />
+        <module name="auth-sdk" />
+        <module name="workflow-service" />
+        <module name="project-service" />
+        <module name="workflow-sdk" />
+        <module name="project-sdk" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-sdk" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="external-db-adapter-sdk" options="-parameters" />
+      <module name="external-db-adapter-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="orchestration-service" options="-parameters" />
+      <module name="project-manage" options="" />
+      <module name="project-sdk" options="-parameters" />
+      <module name="project-service" options="-parameters" />
+      <module name="workflow-sdk" options="-parameters" />
+      <module name="workflow-service" options="-parameters" />
+    </option>
+  </component>
+</project>
