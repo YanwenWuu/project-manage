@@ -4,7 +4,132 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc7eb40-9323-4191-b614-344d7c6af97a" name="Default Changelist" comment="" />
+    <list default="true" id="3dc7eb40-9323-4191-b614-344d7c6af97a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/51ca55e0-4711-42e2-a665-a1b8d25a0f48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/51ca55e0-4711-42e2-a665-a1b8d25a0f48/storage_v2/_src_/database/ERP_Project._aPlkw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/51ca55e0-4711-42e2-a665-a1b8d25a0f48/storage_v2/_src_/database/ERP_Project._aPlkw/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/be96622c-9023-4890-9de0-1afb71988a08.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/be96622c-9023-4890-9de0-1afb71988a08/storage_v2/_src_/database/yjyprod.33KRvA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/be96622c-9023-4890-9de0-1afb71988a08/storage_v2/_src_/database/yjyprod.33KRvA/schema/bureau_project_info.udUyfQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/src/main/java/com/zjsh/auth/sdk/dto/AuthInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/src/main/java/com/zjsh/auth/sdk/dto/request/UserInfoReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/src/main/java/com/zjsh/auth/sdk/dto/response/UserInfoResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/src/main/java/com/zjsh/auth/sdk/feign/AuthServiceApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/auth-sdk-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/classes/com/zjsh/auth/sdk/dto/AuthInfoDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/classes/com/zjsh/auth/sdk/dto/request/UserInfoReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/classes/com/zjsh/auth/sdk/dto/response/UserInfoResp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/classes/com/zjsh/auth/sdk/feign/AuthServiceApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-sdk/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/auth-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zjsh/auth/AuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zjsh/auth/adpater/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zjsh/auth/application/UserApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zjsh/auth/application/command/AuthInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zjsh/auth/application/converter/AuthConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zjsh/auth/application/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zjsh/auth/application/service/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zjsh/auth/domain/entity/AuthInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/auth-service-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/com/zjsh/auth/AuthServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/com/zjsh/auth/adpater/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/com/zjsh/auth/application/UserApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/com/zjsh/auth/application/command/AuthInfoCommand$AuthInfoCommandBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/com/zjsh/auth/application/command/AuthInfoCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/com/zjsh/auth/application/converter/AuthConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/com/zjsh/auth/application/service/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/com/zjsh/auth/application/service/AuthServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/classes/com/zjsh/auth/domain/entity/AuthInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zjsh/common/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zjsh/common/exception/BusinessExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zjsh/common/request/BaseReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zjsh/common/response/BaseResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zjsh/common/utils/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zjsh/common/utils/BizCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zjsh/common/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zjsh/common/exception/BusinessExceptionEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zjsh/common/request/BaseReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zjsh/common/response/BaseResp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zjsh/common/utils/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zjsh/common/utils/BizCall.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/common-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/common-1.0.0.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external-db-adapter-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external-db-adapter-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external-db-adapter-service/src/main/java/com/zjsh/external/ExternalDbAdapterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external-db-adapter-service/src/main/java/com/zjsh/external/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external-db-adapter-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/zjsh/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/zjsh/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/zjsh/gateway/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/zjsh/gateway/GatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/zjsh/gateway/util/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestration-service/orchestration-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestration-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestration-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestration-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestration-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestration-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestration-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestration-service/target/orchestration-service-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-manage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/src/main/java/com/zjsh/project/ProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/src/main/java/com/zjsh/project/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/src/main/java/com/zjsh/project/wrapper/AuthWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/target/classes/com/zjsh/project/ProjectApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/target/classes/com/zjsh/project/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/target/classes/com/zjsh/project/wrapper/AuthWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-service/target/project-service-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow-service/target/workflow-service-1.0.0.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +145,9 @@
         <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -63,6 +191,7 @@
     "Spring Boot.AuthServiceApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.ProjectApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/IdeaProjects/project-manage",
     "node.js.detected.package.eslint": "true",
@@ -174,7 +303,7 @@
       <workItem from="1778286883322" duration="15204000" />
       <workItem from="1778459770237" duration="18281000" />
       <workItem from="1778487132076" duration="3316000" />
-      <workItem from="1778547100312" duration="7651000" />
+      <workItem from="1778547100312" duration="8157000" />
     </task>
     <servers />
   </component>
